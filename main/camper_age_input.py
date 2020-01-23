@@ -9,12 +9,12 @@ Converts camper age from years to months.
 
 def main():
     print('Enter age in years: ')
-    age_in_years = input()
+    age_in_years = float(input())
     age_in_months = convert_to_months(age_in_years)
-    print(28 * 12)
+    print(age_in_months)
 
 
-def convert_to_months(self, age_in_years):
+def convert_to_months(age_in_years):
     return age_in_years * 12
 
 
