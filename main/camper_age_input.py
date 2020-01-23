@@ -8,12 +8,14 @@ Converts camper age from years to months.
 
 
 def main():
-    print('Enter age: ')
-    convert_to_months(input())
+    print('Enter age in years: ')
+    age_in_years = input()
+    age_in_months = convert_to_months(age_in_years)
+    print(28 * 12)
 
 
-def convert_to_months(self, age):
-    print('do nothing')
+def convert_to_months(self, age_in_years):
+    return age_in_years * 12
 
 
 if __name__ == '__main__':
