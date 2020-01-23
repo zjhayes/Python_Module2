@@ -7,8 +7,8 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(True, False)
 
 
-def convert_to_months(x):
-    pass
+def convert_to_months(self):
+    self.assertEquals(28, camper_age_input.convert_to_months(2.5))
 
 
 if __name__ == '__main__':
